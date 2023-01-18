@@ -1,11 +1,26 @@
-import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-import './App.css'
+import { useState, useEffect } from "react";
+import {LanguajeProvider} from './context/languajes'
+
+import { Header } from "./components/Header";
+import { AboutMe } from "./components/AboutMe";
+import { Skills } from "./components/Skills";
+import { Projects } from "./components/Projects";
+import { Contact } from "./components/Contact";
+import "./index.css";
 
 function App() {
+  // debugger
   return (
-    <h1>hola mundo</h1>
-  )
+    <>
+      <LanguajeProvider>
+        <Header />
+        <AboutMe />
+        <Skills/>
+        <Projects />
+        <Contact />
+      </LanguajeProvider>
+    </>
+  );
 }
 
-export default App
+export default App;
