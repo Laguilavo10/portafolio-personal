@@ -4,7 +4,7 @@ const languajes = {
   ES:{
     header: {
       link1: 'Inicio',
-      link2: 'Projectos',
+      link2: 'Proyectos',
       link3: 'Contacto',
     },
     aboutMe:{
