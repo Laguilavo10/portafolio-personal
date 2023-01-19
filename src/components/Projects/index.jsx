@@ -47,12 +47,12 @@ export function Projects() {
       <section className="projects-container">
         <h4>Proyectos</h4>
         <ul className="projects-list">
-          {projectsList.map((project) => (
-            <li key={project}>
+          {projectsList.map((project, i) => (
+            <li key={i} className="projects-list--item">
               <p>{project.name}</p>
-              <div className="projects-list--item">
+              <div className="projects-list--info">
                 <img
-                  src="https://i.pinimg.com/200x150/74/bb/34/74bb340ffe87e31837a04a538f1bbc10.jpg"
+                  src="https://pbs.twimg.com/media/D6uc2kBX4AAv3xV.jpg"
                   alt=""
                 />
                 <div className="projects-list--links">
