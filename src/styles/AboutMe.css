@@ -2,11 +2,40 @@
   display: grid;
   margin: 2rem;
   grid-template-columns: 1fr 1fr;
+  gap: 40px;
 }
-/* .about-me--img{
-  width: 100%;
-} */
+.about-me--info{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 .about-me--img > img{
-  width: 100%;
+  /* width: 100%; */
   /* object-fit: cover; */
+}
+.about-me--redirects{
+  display: flex;
+  gap: 10px;
+}
+.about-me--links {
+  padding: 4px 6px;
+  gap: 5px;
+  display: flex;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid var(--text-grey-color);
+  border-color: var(--text-grey-color);
+  border-radius: 8px;
+  color: var(--text-grey-color);
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.about-me--links:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.about-me--links > img{
+  width: 25px;
 }

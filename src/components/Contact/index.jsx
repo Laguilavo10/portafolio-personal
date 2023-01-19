@@ -1,7 +1,10 @@
 import React from 'react'
 
-export  function Contact() {
+export function Contact() {
   return (
-    <div>Contact</div>
+    <>
+
+      <a href="mailto:andresfelipelaguilavo@hotmail.com?subject=¡Trabajemos Juntos!">ss</a>
+    </>
   )
 }
