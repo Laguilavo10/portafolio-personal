@@ -1,6 +1,8 @@
 import React from "react"
 import { useLanguaje } from "../../context/languajes"
 import { generateImg } from "../../utils/GenerateImg"
+import avatar from '../../assets/AR.jpg'
+import sinfondo from '../../assets/sinfondo.png'
 import "../../styles/AboutMe.css"
 
 export function AboutMe() {
@@ -8,9 +10,9 @@ export function AboutMe() {
   
   return (
     <>
-      <section className="about-me">
+      <section className="about-me" id="aboutMe">
         <div className="about-me--info">
-          <h2>Frontend Developer</h2>
+          <h1>Frontend <br /> Developer</h1>
           <p>{lang.aboutMe.description}</p>
           <div className="about-me--redirects">
             <a href="#" className="about-me--links" target='_blank'>
@@ -29,7 +31,9 @@ export function AboutMe() {
         </div>
         <div className="about-me--img">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8oFkWne5n1cGvJqDwTu7L2IVjke1icnpwmWng_vk&s"
+            src={avatar}
+            // typeof="png"
+            // src={sinfondo}
             alt=""
           />
         </div>

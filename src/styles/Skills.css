@@ -8,6 +8,9 @@
 .skills-list{
   display: flex;
   gap: 40px;
+  overflow: auto;
+  width: 90vw;
+  justify-content: center;
 }
 
 .skills-list--item{
@@ -15,6 +18,11 @@
   gap: 40px;
 }
 .skills-list--item > img{
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
 }
+
+/* .skills-list--item > img:hover{
+  border-radius: 20px;
+  box-shadow: 0px 40px 10px -15px var(--input-color);;
+} */

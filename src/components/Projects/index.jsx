@@ -7,7 +7,7 @@ export function Projects() {
 
   return (
     <>
-      <section className="projects-container">
+      <section className="projects-container" id="projects">
         <h4>Proyectos</h4>
         <ul className="projects-list">
           {projectsList.map((project, i) => (
