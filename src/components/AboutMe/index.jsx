@@ -1,6 +1,6 @@
 import React from "react"
 import { useLanguaje } from "../../context/languajes"
-import { generateSVG } from "../../utils/GenerateSVG"
+import { generateImg } from "../../utils/GenerateImg"
 import "../../styles/AboutMe.css"
 
 export function AboutMe() {
@@ -15,15 +15,15 @@ export function AboutMe() {
           <div className="about-me--redirects">
             <a href="#" className="about-me--links" target='_blank'>
               <p>Resume</p>
-              <img src={generateSVG('resume')} alt="" />
+              <img src={generateImg('resume')} alt="" />
             </a>
             <a href="https://www.linkedin.com/in/andres-laguilavo-2a2848205/" className="about-me--links" target='_blank'>
               <p>LinkedIn</p>
-              <img src={generateSVG('linkedin')} alt="" />
+              <img src={generateImg('linkedin')} alt="" />
             </a>
             <a href="https://github.com/Laguilavo10" className="about-me--links" target='_blank'>
               <p>GitHub</p>
-              <img src={generateSVG('github')} alt="" />
+              <img src={generateImg('github')} alt="" />
             </a>
           </div>
         </div>

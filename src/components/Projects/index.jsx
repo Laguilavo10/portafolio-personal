@@ -1,47 +1,10 @@
 import React from "react"
 import "../../styles/Projects.css"
-import { generateSVG } from "../../utils/GenerateSVG"
+import { generateImg } from "../../utils/GenerateImg"
+import { projectsList } from "../../utils/projectsList"
 
 export function Projects() {
-  const projectsList = [
-    {
-      name: "Gestor de Gastos",
-      langs: ["react", "css"],
-      repo: "https://github.com/Laguilavo10/gestor-de-gastos",
-      url: "https://laguilavo10.github.io/gestor-de-gastos/",
-    },
-    {
-      name: "Pokedex",
-      langs: ["react", "css"],
-      repo: "https://github.com/Laguilavo10/pokedex-kanto",
-      url: "https://laguilavo10.github.io/pokedex-kanto/",
-    },
-    {
-      name: "Periodic Table",
-      langs: ["react", "css"],
-      repo: "https://github.com/Laguilavo10/periodic-table/",
-      url: "https://laguilavo10.github.io/periodic-table/",
-    },
-    {
-      name: "toDo List",
-      langs: ["react", "css"],
-      repo: "https://github.com/Laguilavo10/toDo-React",
-      url: "https://laguilavo10.github.io/toDo-React/",
-    },
-    {
-      name: "PassWord Generator",
-      langs: ["html", "css", "javascript"],
-      repo: "https://github.com/Laguilavo10/password-generator",
-      url: "https://laguilavo10.github.io/password-generator/",
-    },
-    {
-      name: "Login Instagram",
-      langs: ["html", "css"],
-      repo: "https://github.com/Laguilavo10/clon-Instagram",
-      url: "https://laguilavo10.github.io/clon-Instagram/",
-    },
-  ]
-  generateSVG()
+
   return (
     <>
       <section className="projects-container">
@@ -52,16 +15,16 @@ export function Projects() {
               <p>{project.name}</p>
               <div className="projects-list--info">
                 <img
-                  src="https://pbs.twimg.com/media/D6uc2kBX4AAv3xV.jpg"
+                  src={generateImg(project.img)}
                   alt=""
                 />
                 <div className="projects-list--links">
                   <a href={project.repo} target="_blank">
-                    <img src={generateSVG('github')} alt="" />
+                    <img src={generateImg('github')} alt="" />
                     Repo
                   </a>
                   <a href={project.url} target="_blank">
-                    <img src={generateSVG('url')} alt="" />
+                    <img src={generateImg('url')} alt="" />
                     URL
                   </a>
                 </div>

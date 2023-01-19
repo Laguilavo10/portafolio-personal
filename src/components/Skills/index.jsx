@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/Skills.css";
-import { generateSVG } from "../../utils/GenerateSVG";
+import { generateImg } from "../../utils/GenerateImg";
 
 export function Skills() {
   const skills = ["html", "css", "javascript", "react", "git"];
@@ -12,7 +12,7 @@ export function Skills() {
         <ul className="skills-list">
           {skills.map((skill) => (
             <li className="skills-list--item" key={skill}>
-              <img src={generateSVG(skill)} alt={skill} />
+              <img src={generateImg(skill)} alt={skill} />
             </li>
           ))}
         </ul>
