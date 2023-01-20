@@ -57,11 +57,31 @@
   .header-menu--burguer{
     display: flex;
     width: 40px;
+    cursor: pointer;
   }
   .inactive{
     display: none;
   }
   .btn-closeNav{
     display: flex;
+    position: absolute;
+    bottom: 30px;
+    justify-self: center;
+    align-self: center;
+    background: none;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 40px;
+  } 
+  .btn-closeNav > img{
+    width: 100%;
+  }
+  .btn-closeNav > img:hover{
+    transform: rotate(90deg);
+    /* transition: transform 1s linear; */
+    transition: all 0.3s ease-out;
+    cursor: pointer;
   }
 }
+
