@@ -10,6 +10,10 @@
   background-color: var(--background-color);
 }
 
+.header-name::after{
+  content: "<Andres Laguilavo/>";
+}
+
 .sections-links{
   display: flex;
   gap: 20px;
@@ -21,10 +25,43 @@
   color: var(--text-grey-color);
 }
 
-@media (max-width: 650px) {
+
+.header-menu--burguer{
+  display: none;
+}
+
+.btn-closeNav{
+  display: none;
+}
+
+@media (max-width:530px) {
   .sections-links{
-    display: none;
-    /* gap: 20px; */
+    border: 2px solid var(--text-grey-color);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 100vh;
+    width: 40%;
+    min-width: 150px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    gap: 40px;
+    background-color: var(--background-color);
   }
-  
+  .header-name::after{
+    content: "<AL/>";
+  }
+  .header-menu--burguer{
+    display: flex;
+    width: 40px;
+  }
+  .inactive{
+    display: none;
+  }
+  .btn-closeNav{
+    display: flex;
+  }
 }

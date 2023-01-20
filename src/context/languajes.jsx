@@ -9,21 +9,22 @@ export const languajes = {
       link3: "Contacto",
     },
     aboutMe: {
-      description: "Entusiasta desarrollador Junior de las tecnologias Frontend. Con habilidades para trabajar en equipo y aprender rápidamente, buscando unirme a una empresa para desarrollar mis habilidades y contribuir al éxito del equipo.",
+      description:
+        "Entusiasta desarrollador Jr de las tecnologias Frontend. Con habilidades para trabajar en equipo y aprender rápidamente, buscando unirme a una empresa para desarrollar mis habilidades y contribuir al éxito del equipo.",
       cv: "Descargar CV",
     },
-    projects:{
-      project1:"Gestor de Gastos",
-      project2:"Pokedex",
-      project3:"Tabla Periodica",
-      project4:"ToDO List",
-      project5:"Generador de Contraseñas",
-      project6:"Login Instagram",
+    projects: {
+      project1: "Gestor de Gastos",
+      project2: "Pokedex",
+      project3: "Tabla Periodica",
+      project4: "ToDO List",
+      project5: "Generador de Contraseñas",
+      project6: "Login Instagram",
     },
-    contact:{
-      title:"Contacto",
-      msj:"uwu",
-    }
+    contact: {
+      title: "Contacto",
+      msj: "¡No dudes en ponerte en contacto conmigo para discutir cómo puedo contribuir a tu equipo! ",
+    },
   },
   EN: {
     header: {
@@ -32,23 +33,23 @@ export const languajes = {
       link3: "Contact",
     },
     aboutMe: {
-      description: "Enthusiastic Junior developer with Frontend technologies. With skills to work in a team and learn quickly, looking to join a company to develop my skills and contribute to the success of the team.",
+      description:
+        "Enthusiastic Jr developer with Frontend technologies. With skills to work in a team and learn quickly, looking to join a company to develop my skills and contribute to the success of the team.",
       cv: "Descargar CV",
     },
-    projects:{
-      project1:"Expense Manager",
-      project2:"Pokedex",
-      project3:"Periodic Table",
-      project4:"ToDO List",
-      project5:"Password Generator",
-      project6:"Login Instagram",
+    projects: {
+      project1: "Expense Manager",
+      project2: "Pokedex",
+      project3: "Periodic Table",
+      project4: "ToDO List",
+      project5: "Password Generator",
+      project6: "Login Instagram",
     },
-    contact:{
-      title:"Contact Me",
-      msj:"uwu",
-    }
+    contact: {
+      title: "Contact Me",
+      msj: "Don't hesitate to contact me to discuss how I can contribute to your team!",
+    },
   },
-
 }
 
 const LanguajeSite = createContext()
