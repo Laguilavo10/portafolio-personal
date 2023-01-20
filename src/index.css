@@ -18,13 +18,13 @@
   --react-color:#06abc9;
 }
 
-.nav-header{
-  display: flex;
-  /* background-color: aliceblue; */
-}
-
 body {
   background-color: var(--background-color);
   color: aliceblue;
 }
 
+.title-section{
+  font-size: 2rem;
+  letter-spacing: 2px;
+  text-align: center;
+}

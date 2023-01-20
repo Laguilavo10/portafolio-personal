@@ -2,12 +2,12 @@ import React from "react"
 import { useLanguaje } from "../../context/languajes"
 import { generateImg } from "../../utils/GenerateImg"
 import avatar from '../../assets/AR.jpg'
-import sinfondo from '../../assets/sinfondo.png'
+import cv from '../../assets/CV_AndresLaguilavo.pdf'
 import "../../styles/AboutMe.css"
 
 export function AboutMe() {
   const { lang } = useLanguaje()
-  
+  // download="CV_Andres_Laguilavo.pdf"
   return (
     <>
       <section className="about-me" id="aboutMe">
@@ -15,7 +15,7 @@ export function AboutMe() {
           <h1>Frontend <br /> Developer</h1>
           <p>{lang.aboutMe.description}</p>
           <div className="about-me--redirects">
-            <a href="#" className="about-me--links" target='_blank'>
+            <a href="https://drive.google.com/file/d/1VOtnGhdWROxqm6nhvWqHwZxDuBwpRNC4/view?usp=share_link"  className="about-me--links" target="_blank">
               <p>Resume</p>
               <img src={generateImg('resume')} alt="" />
             </a>

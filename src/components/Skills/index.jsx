@@ -8,7 +8,7 @@ export function Skills() {
   return (
     <>
       <section className="skills-container">
-        <h4 className="">Skills</h4>
+        <h4 className="title-section">Skills</h4>
         <ul className="skills-list">
           {skills.map((skill) => (
             <li className="skills-list--item" key={skill}>

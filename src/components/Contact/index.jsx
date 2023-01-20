@@ -9,7 +9,7 @@ export function Contact() {
   return (
     <>
       <section className="contact-container" id="contact">
-        <h4>{lang.contact.title}</h4>
+        <h4 className="title-section">{lang.contact.title}</h4>
         <p>{lang.contact.msj}</p>
         <div className="contact-links">
           <a href="mailto:andresfelipelaguilavo@hotmail.com?subject=¡Trabajemos Juntos!">
