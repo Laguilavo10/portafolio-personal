@@ -18,6 +18,7 @@
 .sections-links > a{
   cursor: pointer;
   text-decoration: none;
+  color: var(--text-grey-color);
 }
 
 @media (max-width: 650px) {

@@ -1,18 +1,16 @@
 import React from "react"
 import { generateImg } from "../../utils/GenerateImg"
 import "../../styles/Contact.css"
+import { useLanguaje } from "../../context/languajes"
 
 export function Contact() {
+  const {lang} = useLanguaje()
+  
   return (
     <>
       <section className="contact-container" id="contact">
-        <h4>Contact Me</h4>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo aut
-          omnis quo neque eum debitis exercitationem asperiores perferendis,
-          illum, ipsum voluptas ea doloremque numquam quod accusantium
-          consequuntur sit dolorem laboriosam!
-        </p>
+        <h4>{lang.contact.title}</h4>
+        <p>{lang.contact.msj}</p>
         <div className="contact-links">
           <a href="mailto:andresfelipelaguilavo@hotmail.com?subject=¡Trabajemos Juntos!">
             <img src={generateImg("email")} alt="" />
