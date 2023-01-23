@@ -35,6 +35,38 @@
 }
 
 @media (max-width:530px) {
+  .header-menu--burguer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 35px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 100;
+    position: relative;
+  }
+  .header-menu--burguer > div{
+    width: 100%;
+    height: 5px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    transition: all .7s ease;
+  }
+
+  .line1{
+    position: absolute;
+    top: 0;
+    transform: translate3d(0px, 12px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(45deg) skew(0deg, 0deg);
+    transition: all .7s ease;
+  }
+  
+  .line2{
+    position: absolute;
+    bottom: 0;
+    transform: translate3d(0px, -12px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-45deg) skew(0deg, 0deg);
+    transition: all .7s ease;
+  }
+  
   .sections-links{
     border: 2px solid var(--text-grey-color);
     border-bottom-left-radius: 10px;
@@ -51,14 +83,15 @@
     gap: 40px;
     background-color: var(--background-color);
   }
+  
   .header-name::after{
     content: "<AL/>";
   }
-  .header-menu--burguer{
+  /* .header-menu--burguer{
     display: flex;
     width: 40px;
     cursor: pointer;
-  }
+  } */
   .inactive{
     display: none;
   }

@@ -19,12 +19,11 @@ export function Header() {
   return (
     <header className="header" id="header">
       <h1 className="header-name"></h1> {/*El texto se genera en CSS*/}
-      <img
-        src={generateImg("menu")}
-        alt=""
-        className="header-menu--burguer"
-        onClick={() => handleMenu(menuOpen)}
-      />
+      <div className="header-menu--burguer" onClick={() => handleMenu(menuOpen)}>
+        <div className={`${menuOpen && "line1"}`}></div>
+        <div className={`${menuOpen && "line2"}`}></div>
+      </div>
+      
       <div className={`sections-links ${!menuOpen && "inactive"}`}>
         <a href="#aboutMe">{lang.header.link1}</a>
         <a href="#projects">{lang.header.link2}</a>
@@ -33,9 +32,6 @@ export function Header() {
           <option value="ES">ES</option>
           <option value="EN">EN</option>
         </select>
-        <button onClick={() => handleMenu(menuOpen)} className="btn-closeNav">
-          <img src={generateImg("close")} alt="" />
-        </button>
       </div>
     </header>
   )

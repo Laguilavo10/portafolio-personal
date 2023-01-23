@@ -29,5 +29,10 @@
 
 .contact-links > a > img{
   width: 100%;
+}
 
+@media (max-width:400px) {
+  .contact-container{
+    margin: 10px;
+  }
 }
