@@ -2,7 +2,6 @@ import React from "react"
 import { useLanguaje } from "../../context/languajes"
 import { generateImg } from "../../utils/GenerateImg"
 import avatar from '../../assets/AR.jpg'
-import cv from '../../assets/CV_AndresLaguilavo.pdf'
 import "../../styles/AboutMe.css"
 
 export function AboutMe() {

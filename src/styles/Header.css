@@ -56,14 +56,14 @@
   .line1{
     position: absolute;
     top: 0;
-    transform: translate3d(0px, 12px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(45deg) skew(0deg, 0deg);
+    transform: translateY(12px) rotate(45deg) ;
     transition: all .7s ease;
   }
   
   .line2{
     position: absolute;
     bottom: 0;
-    transform: translate3d(0px, -12px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-45deg) skew(0deg, 0deg);
+    transform: translateY(-13px) rotate(-45deg) ;
     transition: all .7s ease;
   }
   
@@ -82,39 +82,16 @@
     padding: 50px 30px;
     gap: 40px;
     background-color: var(--background-color);
+    transition: all .7s ease;
   }
   
   .header-name::after{
     content: "<AL/>";
   }
-  /* .header-menu--burguer{
-    display: flex;
-    width: 40px;
-    cursor: pointer;
-  } */
+
   .inactive{
-    display: none;
-  }
-  .btn-closeNav{
-    display: flex;
-    position: absolute;
-    bottom: 30px;
-    justify-self: center;
-    align-self: center;
-    background: none;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    width: 40px;
-  } 
-  .btn-closeNav > img{
-    width: 100%;
-  }
-  .btn-closeNav > img:hover{
-    transform: rotate(90deg);
-    /* transition: transform 1s linear; */
-    transition: all 0.3s ease-out;
-    cursor: pointer;
+    transform: translateX(178px);
+    transition: all .7s ease;
   }
 }
 
