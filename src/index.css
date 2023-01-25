@@ -18,9 +18,14 @@
   --react-color:#06abc9;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--background-color);
   color: aliceblue;
+  overflow-x: hidden;
 }
 
 .title-section{

@@ -17,6 +17,8 @@ export function Header() {
   }
 
   return (
+    <>
+    <div className={`opacity-background--${menuOpen}`}></div>
     <header className="header" id="header">
       <h1 className="header-name"></h1> {/*El texto se genera en CSS*/}
       <div className="header-menu--burguer" onClick={() => handleMenu(menuOpen)}>
@@ -34,5 +36,6 @@ export function Header() {
         </select>
       </div>
     </header>
+    </>
   )
 }
