@@ -33,33 +33,6 @@
   transition:  2s;
 }
 
-.skills-list--item >img:hover{
-  z-index: 0;
-  transform: rotateY(170deg);
-  transition:  2s;
-}
-
-.skills-list--item > div{
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  z-index: 3;
-  color: var(--background-color);
-  font-weight: 900;
-  font-size: 1rem;
-}
-
-.skills-list--item > div:hover{
-  display: flex;
-  background-color: aliceblue;
-  border-radius: 3px;
-}
-
-
-
 @media (max-width:520px) {
   .skills-list{
     justify-content: flex-start;

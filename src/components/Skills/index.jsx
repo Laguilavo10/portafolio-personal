@@ -13,9 +13,6 @@ export function Skills() {
         <ul className="skills-list">
           {skills.map((skill) => (
             <li className="skills-list--item" key={skill}>
-              <div>
-                HTML
-              </div>
               <img src={generateImg(skill)} alt={skill} />
             </li>
           ))}

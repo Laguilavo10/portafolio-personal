@@ -1,7 +1,6 @@
 import { useState } from "react"
 import { languajes, useLanguaje } from "../../context/languajes"
 import "../../styles/Header.css"
-import { generateImg } from "../../utils/GenerateImg"
 
 export function Header() {
   const { lang, setLang } = useLanguaje()
