@@ -7,6 +7,13 @@ export const projectsList = [
     url: "https://laguilavo10.github.io/gestor-de-gastos/",
   },
   {
+    name: "Cinema Data",
+    img:'moviesInfo',
+    langs: ["react", "css"],
+    repo: "https://github.com/Laguilavo10/WebMovies",
+    url: "https://laguilavo10.github.io/WebMovies/",
+  },
+  {
     name: "Pokedex",
     img:'pokedex',
     langs: ["react", "css"],
@@ -20,13 +27,13 @@ export const projectsList = [
     repo: "https://github.com/Laguilavo10/periodic-table/",
     url: "https://laguilavo10.github.io/periodic-table/",
   },
-  {
-    name: "toDo List",
-    img:'toDo',
-    langs: ["react", "css"],
-    repo: "https://github.com/Laguilavo10/toDo-React",
-    url: "https://laguilavo10.github.io/toDo-React/",
-  },
+  // {
+  //   name: "toDo List",
+  //   img:'toDo',
+  //   langs: ["react", "css"],
+  //   repo: "https://github.com/Laguilavo10/toDo-React",
+  //   url: "https://laguilavo10.github.io/toDo-React/",
+  // },
   {
     name: "PassWord Generator",
     img:'passwordGenerator',

@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { languajes, useLanguaje } from "../../context/languajes"
-import "../../styles/Header.css"
+import "../../styles/Header.css" 
 
 export function Header() {
   const { lang, setLang } = useLanguaje()

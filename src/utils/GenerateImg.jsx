@@ -15,6 +15,7 @@ import toDo from '../assets/toDo.jpeg'
 import periodicTable from '../assets/periodicTable.jpeg'
 import loginInstagram from '../assets/loginInstagram.jpeg'
 import passwordGenerator from '../assets/passwordGenerator.jpeg'
+import moviesInfo from '../assets/moviesInfo.jpeg'
 
 import menu from '../assets/menu.svg'
 import close from '../assets/close.svg'
@@ -38,6 +39,7 @@ let imgs = {
   periodicTable,
   loginInstagram,
   passwordGenerator,
+  moviesInfo,
 
   menu,
   close,

@@ -1,6 +1,7 @@
 .projects-container {
   padding: 60px 5%;
 }
+
 .projects-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
