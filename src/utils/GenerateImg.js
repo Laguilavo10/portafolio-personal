@@ -48,3 +48,4 @@ let imgs = {
 export const generateImg = (name) => {
   return imgs[name]
 }
+

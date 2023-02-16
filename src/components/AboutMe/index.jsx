@@ -4,9 +4,9 @@ import { generateImg } from "../../utils/GenerateImg"
 import avatar from '../../assets/AR.jpg'
 import "../../styles/AboutMe.css"
 
+
 export function AboutMe() {
   const { lang } = useLanguaje()
-  // download="CV_Andres_Laguilavo.pdf"
   return (
     <>
       <section className="about-me" id="aboutMe">
