@@ -31,7 +31,6 @@
 .about-me--img > img{
   max-height: 400px;
   width: 100%;
-  background-image: none;
   border-radius: 30px;
   box-shadow: rgba(154, 162, 173, 0.56) 0px 22px 70px 4px;
   object-fit: contain;
