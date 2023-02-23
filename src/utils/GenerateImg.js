@@ -4,6 +4,8 @@ import javascript from "../assets/javascript.svg"
 import react from "../assets/react.svg"
 import git from "../assets/git.svg"
 import linkedin from '../assets/linkedin.svg'
+import tailwind from '../assets/tailwind.svg'
+
 import github from '../assets/github.svg'
 import resume from '../assets/resume.svg'
 import url from '../assets/url.svg'
@@ -27,6 +29,7 @@ let imgs = {
   javascript,
   react,
   git,
+  tailwind,
   linkedin,
   github,
   resume,

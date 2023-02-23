@@ -3,7 +3,7 @@ import "../../styles/Skills.css"
 import { generateImg } from "../../utils/GenerateImg"
 
 export function Skills() {
-  const skills = ["html", "css", "javascript", "react", "git"]
+  const skills = ["html", "css", "javascript", "react", "git", "tailwind"]
 
   return (
     <>

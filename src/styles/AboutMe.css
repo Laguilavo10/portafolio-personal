@@ -3,15 +3,16 @@
   margin: 2rem;
   grid-template-columns: 1fr 1fr;
   padding-top: 60px;
-  height: 100%;
+  grid-auto-rows: 450px;
   gap: 60px;
-
 }
 
 .about-me--info{
   display: flex;
   flex-direction: column;
   justify-content:space-evenly;
+  height: 100%;
+  padding-left: 50px;
 }
 
 .about-me--info > h1{
@@ -29,7 +30,7 @@
 }
 
 .about-me--img > img{
-  max-height: 400px;
+  height: 100%;
   width: 100%;
   border-radius: 30px;
   /* box-shadow: rgba(154, 162, 173, 0.56) 0px 22px 70px 4px; */
@@ -74,6 +75,7 @@
   .about-me--info{
     margin: 0;
     gap:40px;
+    padding-left:0 ;
   }
 }
 
