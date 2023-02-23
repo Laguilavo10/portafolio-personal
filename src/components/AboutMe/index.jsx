@@ -1,7 +1,8 @@
 import React from "react"
 import { useLanguaje } from "../../context/languajes"
 import { generateImg } from "../../utils/GenerateImg"
-import avatar from '../../assets/AR.jpg'
+import avatar from '../../assets/AR-removebg-preview.png'
+
 import "../../styles/AboutMe.css"
 
 
